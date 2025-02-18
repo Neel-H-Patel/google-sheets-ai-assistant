@@ -4,6 +4,7 @@ from google.oauth2.service_account import Credentials
 
 # define API
 app = FastAPI()
+num = 5
 
 # google sheets API setup
 SCOPES = ["https://www.googleapis.com/auth/spreadsheets"]
